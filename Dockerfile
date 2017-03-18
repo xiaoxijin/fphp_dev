@@ -4,5 +4,5 @@ Maintainer Xijin Xiao (http://github.com/xiaoxijin/)
 
 ADD ext/* /etc/php7.1/conf.d/
 EXPOSE 9566 9576
-ENTRYPOINT ["/usr/bin/php","/root/pcm/pcm.php","dev"]
+ENTRYPOINT ["/usr/bin/php","/root/pcm/pcm.php"]
 CMD ["dev"]
